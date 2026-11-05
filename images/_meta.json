@@ -69,6 +69,12 @@
   "w": 1210,
   "h": 793
  },
+ "nicotine_glo.jpg": {
+  "bg": "#8b8579",
+  "dark": false,
+  "w": 960,
+  "h": 720
+ },
  "nicotine_heated.jpg": {
   "bg": "#949391",
   "dark": false,
@@ -80,6 +86,12 @@
   "dark": true,
   "w": 1498,
   "h": 941
+ },
+ "nicotine_iqos.jpg": {
+  "bg": "#f4f4f3",
+  "dark": false,
+  "w": 960,
+  "h": 640
  },
  "nicotine_nrt.jpg": {
   "bg": "#cacaca",
@@ -110,6 +122,18 @@
   "dark": true,
   "w": 728,
   "h": 475
+ },
+ "nicotine_velo.jpg": {
+  "bg": "#dfd9d6",
+  "dark": false,
+  "w": 960,
+  "h": 700
+ },
+ "nicotine_zyn.jpg": {
+  "bg": "#eae6e4",
+  "dark": false,
+  "w": 960,
+  "h": 640
  },
  "social_brain.png": {
   "bg": "#ffffff",
