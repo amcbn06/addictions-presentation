@@ -362,7 +362,7 @@ footer .src{max-width:1500px}.counter{font-variant-numeric:tabular-nums}
 /* roadmap */
 .road{display:flex;flex-direction:column;gap:26px;height:100%}.roadHead{font-family:var(--head);font-weight:700;font-size:34px;color:var(--soft)}
 .roadRow{position:relative;flex:1;display:grid;grid-template-columns:repeat(4,1fr);gap:26px;align-items:start}
-.roadRow::before{content:"";position:absolute;left:4%;right:4%;top:55px;border-top:6px dashed color-mix(in srgb,var(--acc) 55%,transparent);border-radius:6px}
+
 .rdStop{position:relative;display:flex;flex-direction:column;align-items:center;text-align:center;gap:12px;padding-top:0}
 .rdStop .chipIc{width:110px;height:110px;border-radius:50%;background:var(--surface);border:6px solid var(--acc);box-shadow:0 0 0 10px var(--bg)}
 .rdStop .chipIc .ic{width:52px;height:52px}
@@ -411,6 +411,10 @@ footer .src{max-width:1500px}.counter{font-variant-numeric:tabular-nums}
 .subs{flex:1;min-height:0;display:flex;flex-direction:column;gap:8px}.subs figure{position:relative;flex:1;min-height:0;margin:0;border-radius:14px;overflow:hidden;background:#fff}
 .subs img{width:100%;height:100%;object-fit:cover;cursor:zoom-in}.subs figcaption{position:absolute;left:8px;bottom:8px;background:rgba(10,15,29,.82);color:#fff;font-family:var(--head);font-weight:800;font-size:24px;padding:2px 14px;border-radius:999px}
 .subs figure.txt{display:flex;flex-direction:column;align-items:center;justify-content:center;background:color-mix(in srgb,var(--acc) 14%,var(--surface))}.subs figure.txt span{font-family:var(--head);font-weight:800;font-size:54px;color:var(--acc)}.subs figure.txt figcaption{position:static;background:none;color:var(--soft);font-weight:500;font-size:22px}
+.rdSeg{position:absolute;top:52px;left:calc(-50% + 38px);width:calc(100% - 102px);height:6px;border-radius:3px;background:var(--acc);transform:scaleX(0);transform-origin:left;transition:transform .7s var(--ease-out) .25s}
+.rdSeg.out{left:calc(50% + 64px);width:90px}
+.rdSeg::after{content:"";position:absolute;right:-6px;top:-10px;border-left:18px solid var(--acc);border-top:13px solid transparent;border-bottom:13px solid transparent}
+.rdStop.shown .rdSeg{transform:none}
 </style></head>
 <body>
 <div id="deck">
@@ -872,12 +876,12 @@ Then hand over to Andrei Mihai Ciobanu."><div class="kick"><i></i>Social Media &
   <path d="M18 5v17" />
   <path d="m4 6 7.106-3.553a2 2 0 0 1 1.788 0L20 6" />
   <path d="M6 5v17" />
-  <circle cx="12" cy="9" r="2" /></svg></span><h3>Prevent</h3><ul><li>Honest education</li><li>Family and school support</li><li>Early help for stress</li></ul></div><div class="frag rdStop dn" data-step="2"><span class="rdNum">2</span><span class="chipIc lg"><svg class="ic " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0" />
-  <circle cx="12" cy="12" r="3" /></svg></span><h3>Spot it</h3><ul><li>Cravings, secrecy, lost interest</li><li>Talk without judging</li></ul></div><div class="frag rdStop" data-step="3"><span class="rdNum">3</span><span class="chipIc lg"><svg class="ic " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 2v2" />
+  <circle cx="12" cy="9" r="2" /></svg></span><h3>Prevent</h3><ul><li>Honest education</li><li>Family and school support</li><li>Early help for stress</li></ul></div><div class="frag rdStop dn" data-step="2"><i class="rdSeg"></i><span class="rdNum">2</span><span class="chipIc lg"><svg class="ic " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0" />
+  <circle cx="12" cy="12" r="3" /></svg></span><h3>Spot it</h3><ul><li>Cravings, secrecy, lost interest</li><li>Talk without judging</li></ul></div><div class="frag rdStop" data-step="3"><i class="rdSeg"></i><span class="rdNum">3</span><span class="chipIc lg"><svg class="ic " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 2v2" />
   <path d="M5 2v2" />
   <path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1" />
   <path d="M8 15a6 6 0 0 0 12 0v-3" />
-  <circle cx="20" cy="10" r="2" /></svg></span><h3>Treat</h3><ul><li>Detox with doctors</li><li>Therapy</li><li>Naloxone reverses an opioid overdose</li></ul></div><div class="frag rdStop dn" data-step="4"><span class="rdNum">4</span><span class="chipIc lg"><svg class="ic " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+  <circle cx="20" cy="10" r="2" /></svg></span><h3>Treat</h3><ul><li>Detox with doctors</li><li>Therapy</li><li>Naloxone reverses an opioid overdose</li></ul></div><div class="frag rdStop dn" data-step="4"><i class="rdSeg"></i><i class="rdSeg out"></i><span class="rdNum">4</span><span class="chipIc lg"><svg class="ic " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
   <circle cx="9" cy="7" r="4" />
   <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
   <path d="M16 3.13a4 4 0 0 1 0 7.75" /></svg></span><h3>Recover</h3><ul><li>Support groups</li><li>Relapse is not failure</li></ul></div></div><div class="frag rdHelp" data-step="5"><svg class="ic " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
