@@ -1,0 +1,144 @@
+{
+ "alcohol_harm_chart.png": {
+  "bg": "#000000",
+  "dark": true,
+  "w": 2048,
+  "h": 674
+ },
+ "dopamine_pathways.svg": {
+  "bg": "#ffffff",
+  "dark": false
+ },
+ "drugs_brain.png": {
+  "bg": "#ffffff",
+  "dark": false,
+  "w": 1530,
+  "h": 1470
+ },
+ "drugs_case.png": {
+  "bg": "#ffffff",
+  "dark": false,
+  "w": 1530,
+  "h": 1470
+ },
+ "drugs_chart.png": {
+  "bg": "#ffffff",
+  "dark": false,
+  "w": 1530,
+  "h": 1470
+ },
+ "drugs_effects.png": {
+  "bg": "#ffffff",
+  "dark": false,
+  "w": 1530,
+  "h": 1470
+ },
+ "drugs_help.png": {
+  "bg": "#ffffff",
+  "dark": false,
+  "w": 1530,
+  "h": 1470
+ },
+ "drugs_hook.png": {
+  "bg": "#243447",
+  "dark": true,
+  "w": 1530,
+  "h": 1470
+ },
+ "drugs_takeaways.png": {
+  "bg": "#243447",
+  "dark": true,
+  "w": 1530,
+  "h": 1470
+ },
+ "drugs_what.png": {
+  "bg": "#ffffff",
+  "dark": false,
+  "w": 1530,
+  "h": 1470
+ },
+ "nicotine_cigarette.jpg": {
+  "bg": "#090708",
+  "dark": true,
+  "w": 701,
+  "h": 468
+ },
+ "nicotine_cycle.jpg": {
+  "bg": "#ffffff",
+  "dark": false,
+  "w": 1210,
+  "h": 793
+ },
+ "nicotine_heated.jpg": {
+  "bg": "#949391",
+  "dark": false,
+  "w": 728,
+  "h": 1180
+ },
+ "nicotine_intro.jpg": {
+  "bg": "#252525",
+  "dark": true,
+  "w": 1498,
+  "h": 941
+ },
+ "nicotine_nrt.jpg": {
+  "bg": "#cacaca",
+  "dark": false,
+  "w": 756,
+  "h": 630
+ },
+ "nicotine_oral.jpg": {
+  "bg": "#e0dddb",
+  "dark": false,
+  "w": 728,
+  "h": 1180
+ },
+ "nicotine_patch.jpg": {
+  "bg": "#af8136",
+  "dark": false,
+  "w": 1400,
+  "h": 933
+ },
+ "nicotine_spray.jpg": {
+  "bg": "#1c1922",
+  "dark": true,
+  "w": 933,
+  "h": 1400
+ },
+ "nicotine_vape.jpg": {
+  "bg": "#192028",
+  "dark": true,
+  "w": 728,
+  "h": 475
+ },
+ "social_brain.png": {
+  "bg": "#ffffff",
+  "dark": false,
+  "w": 1000,
+  "h": 600
+ },
+ "social_effects.png": {
+  "bg": "#7b6c60",
+  "dark": false,
+  "w": 570,
+  "h": 322
+ },
+ "social_stats.png": {
+  "bg": "#fffeff",
+  "dark": false,
+  "w": 639,
+  "h": 509
+ },
+ "social_takeaways.png": {
+  "bg": "#b4d4e1",
+  "dark": false,
+  "w": 263,
+  "h": 350
+ },
+ "social_what.png": {
+  "bg": "#ffffff",
+  "dark": false,
+  "w": 800,
+  "h": 800
+ }
+}
